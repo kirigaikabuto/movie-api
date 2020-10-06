@@ -50,11 +50,11 @@ func main() {
 	}
 	movieService := movie_store.NewMovieService(movieStore)
 	moviesAmqpEndpoints := movie_store.NewAMQPEndpointFactory(movieService)
-	srv.Endpoint("movies.get", moviesAmqpEndpoints.GetMovieByIdAMQPEndpoint())
-	srv.Endpoint("movies.create", moviesAmqpEndpoints.CreateMovieAMQPEndpoint())
-	srv.Endpoint("movies.list", moviesAmqpEndpoints.ListMoviesAMQPEndpoint())
-	srv.Endpoint("movies.update", moviesAmqpEndpoints.UpdateProductAMQPEndpoint())
-	srv.Endpoint("movies.delete", moviesAmqpEndpoints.DeleteMovieAMQPEndpoint())
+	srv.Endpoint("movie.get", moviesAmqpEndpoints.GetMovieByIdAMQPEndpoint())
+	srv.Endpoint("movie.create", moviesAmqpEndpoints.CreateMovieAMQPEndpoint())
+	srv.Endpoint("movie.list", moviesAmqpEndpoints.ListMoviesAMQPEndpoint())
+	srv.Endpoint("movie.update", moviesAmqpEndpoints.UpdateProductAMQPEndpoint())
+	srv.Endpoint("movie.delete", moviesAmqpEndpoints.DeleteMovieAMQPEndpoint())
 	fmt.Println("Start server")
 	if err := srv.Start(); err != nil {
 		fmt.Println(err)
