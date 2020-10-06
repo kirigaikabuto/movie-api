@@ -15,6 +15,8 @@ github.com/kirigaikabuto/movie-store v1.0.5-0.20201005181504-5d77519b28dc h1:9L0
 github.com/kirigaikabuto/movie-store v1.0.5-0.20201005181504-5d77519b28dc/go.mod h1:3nOqrbruJM+gkCmv4XfN0Jnr3TQPk51NN7I2avzpzPM=
 github.com/kirigaikabuto/movie-store v1.0.5-0.20201006032641-152524b60a83 h1:ukdFRocO3tsHO4DSdFnUEQBuxPunuFcjOivAm64WthU=
 github.com/kirigaikabuto/movie-store v1.0.5-0.20201006032641-152524b60a83/go.mod h1:3nOqrbruJM+gkCmv4XfN0Jnr3TQPk51NN7I2avzpzPM=
+github.com/kirigaikabuto/movie-store v1.0.5 h1:D5KfCV038pwT34jQlXvnKpLHmLZmjrJKKI3TdeEuv70=
+github.com/kirigaikabuto/movie-store v1.0.5/go.mod h1:3nOqrbruJM+gkCmv4XfN0Jnr3TQPk51NN7I2avzpzPM=
 github.com/konsorten/go-windows-terminal-sequences v0.0.0-20180402223658-b729f2633dfe h1:CHRGQ8V7OlCYtwaKPJi3iA7J+YdNKdo8j7nG5IgDhjs=
 github.com/konsorten/go-windows-terminal-sequences v0.0.0-20180402223658-b729f2633dfe/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/konsorten/go-windows-terminal-sequences v1.0.3 h1:CE8S1cTafDpPvMhIxNJKvHsGVBgn1xWYf1NbHQhywc8=
