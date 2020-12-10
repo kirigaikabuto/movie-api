@@ -35,16 +35,12 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	postgreConf := movie_store.Config{
-		Host:             "localhost",
-		User:             "kirito",
-		Password:         "passanya",
-		Port:             5432,
-		Database:         "movie_store",
-		ConnectionString: "",
-		Params:           "sslmode=disable",
+	mongoConfig := movie_store.MongoConfig{
+		Host:     "localhost",
+		Port:     "27017",
+		Database: "recommendation_system",
 	}
-	movieStore, err := movie_store.NewPostgreStore(postgreConf)
+	movieStore, err := movie_store.NewMongoStore(mongoConfig)
 	if err != nil {
 		log.Fatal(err)
 	}
